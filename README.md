@@ -1,4 +1,4 @@
-# ## Problem B
+ ## Problem B
 Computer filesystems are often filled with multiple copies of identical files. These identical files take up unnecessary space, since one copy, plus appropriate file system links, are sufficient to represent all the copies. A simple way to combat this problem is to compare all pairs of files, removing all duplicates.
 
 Comparing all pairs of n files requires n(n−1)/2 comparisons, which can be quite large, since n may be very large. Compounding the problem is the fact that comparing two files is slow, especially if they are large and mostly the same.
