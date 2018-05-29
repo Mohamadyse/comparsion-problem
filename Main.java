@@ -33,7 +33,7 @@ public class Main {
                     while (j < files.length) {
                         //     for (int j = 0; j < unique ; j++)
                         if (files[j].equals(currentFile)) {
-                            collisions += 2;
+                            collisions ++;
                             break;
                         } else {
                             if (j == unique - 1) // we are at the last element of the unique array
